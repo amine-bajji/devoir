@@ -20,7 +20,7 @@ export default function AnalysisForm() {
     setResults(null)
 
     try {
-      const response = await fetch('http://localhost:8000/analyze', {
+      const response = await fetch('https://devoir-2yk6.onrender.com/analyze', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
